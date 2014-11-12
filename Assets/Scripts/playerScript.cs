@@ -1,8 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class playerScript : MonoBehaviour {
-
+public class Player : MonoBehaviour {
+	
 	public float speed = 10f;
 	public Vector2 maxVelocity = new Vector2(2,3);
 	public Light linterna;
@@ -54,5 +54,4 @@ public class playerScript : MonoBehaviour {
 			animator.SetBool ("Fire", false);
 		}
 	}
-
 }
