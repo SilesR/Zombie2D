@@ -53,62 +53,62 @@ TextureImporter:
     - name: zombie_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 22
         y: 425
-        width: 85
-        height: 85
-      alignment: 1
-      pivot: {x: 0, y: 0}
+        width: 55
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: zombie_1
       rect:
         serializedVersion: 2
-        x: 89
+        x: 114
         y: 425
-        width: 85
-        height: 85
-      alignment: 1
-      pivot: {x: 0, y: 0}
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: zombie_2
       rect:
         serializedVersion: 2
-        x: 2
+        x: 27
         y: 338
-        width: 85
-        height: 85
-      alignment: 1
-      pivot: {x: 0, y: 0}
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: zombie_3
       rect:
         serializedVersion: 2
-        x: 89
+        x: 119
         y: 338
-        width: 85
-        height: 85
-      alignment: 1
-      pivot: {x: 0, y: 0}
+        width: 40
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: zombie_4
       rect:
         serializedVersion: 2
-        x: 2
+        x: 28
         y: 251
-        width: 85
-        height: 85
-      alignment: 1
-      pivot: {x: 0, y: 0}
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
     - name: zombie_5
       rect:
         serializedVersion: 2
-        x: 89
+        x: 114
         y: 251
-        width: 85
-        height: 85
-      alignment: 1
-      pivot: {x: 0, y: 0}
+        width: 45
+        height: 75
+      alignment: 0
+      pivot: {x: .5, y: .5}
       border: {x: 0, y: 0, z: 0, w: 0}
   spritePackingTag: 
   userData: 
