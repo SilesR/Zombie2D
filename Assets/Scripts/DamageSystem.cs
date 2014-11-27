@@ -7,6 +7,8 @@ public class DamageSystem : MonoBehaviour {
 	public GameObject blood;
 	public int live = 100;
 	public RectTransform livebar;
+
+	private int maxLive;
 	
 	private float rectLive; 
 	
@@ -15,6 +17,7 @@ public class DamageSystem : MonoBehaviour {
 		if(livebar!=null){
 			rectLive = livebar.rect.width / live;
 		}
+		maxLive = live;
 	}
 	
 	// Update is called once per frame
@@ -22,6 +25,9 @@ public class DamageSystem : MonoBehaviour {
 		if(live <=0){
 			muerte();
 		}
+		if (live > maxLive) {
+						live = maxLive;
+				}
 	}
 	
 	public void hurt(int damage){
@@ -32,17 +38,13 @@ public class DamageSystem : MonoBehaviour {
 			clone.particleSystem.startColor =  Color.red;
 			Destroy(clone,1);
 		}
-		
-		if(blood != null){
-			var clone2 =Instantiate(blood,transform.position,Random.rotation) as GameObject;
-		}
+
 		
 		if(livebar!=null){
 			livebar.sizeDelta = new Vector2( live*rectLive, livebar.rect.height);
 		}
 		
 	}
-	
 	
 	void muerte(){
 		Destroy(gameObject);

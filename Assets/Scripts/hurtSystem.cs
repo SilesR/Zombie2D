@@ -22,6 +22,7 @@ public class hurtSystem : MonoBehaviour {
 					ds.rigidbody2D.AddForce(direction.normalized * force/10,ForceMode2D.Impulse);
 				}
 			}
+			
 		}
 		
 		if (destroyOnCollision) {
