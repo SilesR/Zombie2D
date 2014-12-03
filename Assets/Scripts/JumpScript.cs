@@ -16,7 +16,7 @@ public class JumpScript : MonoBehaviour {
 			standing = false;
 		}
 		
-		if( (Input.GetKeyDown("up") || Input.GetKeyDown("space")) && standing){
+		if( (Input.GetKeyDown("up")||Input.GetKeyDown(KeyCode.Space)) && standing){
 			rigidbody2D.AddForce(new Vector2(0, jumpSpeed), ForceMode2D.Impulse);
 		}
 	}
@@ -33,4 +33,5 @@ public class JumpScript : MonoBehaviour {
 			jumpSpeed = jumpSpeed * superJump;
 		}
 	}
+	
 }
